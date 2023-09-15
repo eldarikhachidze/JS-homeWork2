@@ -1,3 +1,4 @@
+// 1
 function sumPositiveNumbers(numbers) {
     let total = 0;
     for (let i = 0; i < numbers.length; i++) {
@@ -8,7 +9,7 @@ function sumPositiveNumbers(numbers) {
     return total;
 }
 
-// Test the function with your array of numbers
+// 2
 const numbers = [2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8,];
 const result = sumPositiveNumbers(numbers);
 alert(result);
@@ -25,7 +26,7 @@ const result2 = sum2(numbers2);
 alert(result2)
 
 
-
+// 3
 function checkOddOrEven() {
     const number = parseInt(prompt("Please enter a number:"));
     if (!isNaN(number)) {
