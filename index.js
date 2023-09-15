@@ -26,17 +26,6 @@ alert(result2)
 
 
 
-// function numberType() {
-//     if (numb % 2 === 0) {
-//         return alert('The number is even')
-//     } else {
-//         return alert('The number is odd')
-//     }
-// }
-// const numb =Number[prompt('Enter number')]
-// const result3 = numberType()
-// alert('number type is ' + result3)
-
 function checkOddOrEven() {
     const number = parseInt(prompt("Please enter a number:"));
     if (!isNaN(number)) {
